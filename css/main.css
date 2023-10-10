@@ -1,0 +1,286 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  color: #66fcf1;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+h3,
+.title-main {
+  color: #c5c6c7;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+  background-color: #1f2833;
+  border-radius: 30px;
+  box-shadow: 30px black;
+}
+
+.title-1 {
+  font-size: 34px;
+  font-weight: 600;
+  padding-top: 50px;
+  color: #c5c6c7;
+}
+
+.btn {
+  display: inline-block;
+  padding: 7px 22px;
+  background-color: #070707;
+  border-radius: 30px;
+
+  font-size: 18px;
+  color: #fff;
+
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #323232;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+  background-color: #000000;
+}
+
+/* Header */
+
+.header {
+  padding-top: 46px;
+  background-color: #0b0c10;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 25px;
+  margin-bottom: 76px;
+}
+
+.logo {
+  position: relative;
+  padding: 0 12px 3px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #ffd645;
+}
+
+.logo::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #c5c6c7;
+  border-radius: 50%;
+}
+
+/* Nav */
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.nav-button {
+  display: none;
+}
+
+.nav-link {
+  color: #45a29e;
+}
+
+.nav-link.active {
+  color: #c5c6c7;
+}
+
+/* Header content */
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  padding: 0px 55px 55px 55px;
+}
+
+.header-content {
+  margin-top: 124px;
+  max-width: 600px;
+}
+
+.header-heading {
+  color: #45a29e;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.header-content p {
+  line-height: 2;
+}
+
+/* Service */
+
+.services {
+  padding: 90px 0;
+  background-color: #0b0c10;
+}
+
+.services-row {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 60px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1 1 0;
+  min-width: 315px;
+  padding: 30px;
+}
+
+.service-card-img {
+  margin-bottom: 30px;
+}
+
+.service-card-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.service-card p {
+  line-height: 2;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 90px 0;
+  background-color: #0b0c10;
+}
+
+.portfolio-title {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.icons {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.project {
+  text-align: center;
+}
+
+.project + .project {
+  margin-top: 90px;
+}
+
+.project-img {
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.project-title {
+  font-size: 18px;
+}
+
+.project-title a {
+  color: #c5c6c7;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.last {
+  padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #0b0c10;
+}
+.contacts {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts-title {
+  margin-bottom: 40px;
+}
+
+.contacts-content {
+  margin: 0 auto 40px;
+  max-width: 480px;
+  font-size: 18px;
+}
+
+.contacts-content p + p {
+  margin-top: 1em;
+}
+
+.contacts-button {
+  margin-bottom: 80px;
+}
+
+.contacts-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+  padding-bottom: 50px;
+}
+
+.contacts-footer {
+  color: #828282;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #070707;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-back-to-top img {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.btn-back-to-top:hover,
+.btn-back-to-top:focus {
+  background-color: #323232;
+}
+
+.element::-webkit-scrollbar {
+  width: 0;
+}
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}

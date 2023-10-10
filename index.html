@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="icon" href="./img/icons/portfolio.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- Header nav -->
+        <div class="header-nav">
+          <a href="#!" class="logo">Pavlo</a>
+
+          <nav id="nav" class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a
+                  href="https://github.com/Bilda49"
+                  class="nav-link active"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-button">
+              <img
+                id="nav-btn-img"
+                src="./img/icons/nav-open.svg"
+                alt="Nav button"
+              />
+            </button>
+          </nav>
+        </div>
+
+        <!-- Header content -->
+        <div class="header-row">
+          <div class="header-content" data-aos="fade-up">
+            <h1 class="header-heading">
+              Pavlo Matiushenko<br />
+              <span class="title-main">Web Developer</span>
+            </h1>
+            <p>
+              Proficient in a versatile range of web development technologies,
+              including HTML, CSS, JavaScript, Python, PHP, WordPress, and
+              Bootstrap. I recently completed a Software Developer Bootcamp,
+              where I delved into advanced topics such as React, APIs, and
+              testing methodologies using Jest.
+            </p>
+          </div>
+
+          <div class="header-img" data-aos="fade-left">
+            <picture>
+              <source
+                media="(max-width: 799px)"
+                srcset="./img/header/hero.png"
+              />
+              <img src="./img/header/hero.png" alt="me" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="services" class="services">
+      <div class="container">
+        <div class="services-row">
+          <div class="service-card" data-aos="fade-down">
+            <img
+              class="service-card-img"
+              src="./img/services/01.svg"
+              alt="UI/UX Design"
+            />
+            <h3 class="service-card-title">UI/UX Design</h3>
+            <p>
+              Transforming concepts into immersive digital experiences using
+              cutting-edge design principles.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-down">
+            <img
+              class="service-card-img"
+              src="./img/services/02.svg"
+              alt="UI/UX Design"
+            />
+            <h3 class="service-card-title">Web Development</h3>
+            <p>
+              Bringing digital visions to life by crafting comprehensive
+              websites with proficiency in HTML, CSS, JavaScript, Python, PHP,
+              WordPress, and Bootstrap.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-down">
+            <img
+              class="service-card-img"
+              src="./img/services/03.svg"
+              alt="UI/UX Design"
+            />
+            <h3 class="service-card-title">software testing</h3>
+            <p>
+              Ensuring the seamless functionality of digital solutions through
+              meticulous testing methodologies, leveraging expertise in testing
+              frameworks, including Jest.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="portfolio">
+      <div class="container">
+        <div class="portfolio-title">
+          <h2 class="title-1">Portfolio</h2>
+        </div>
+
+        <div class="project" data-aos="flip-up">
+          <a href="https://kitchen-genius-remake.netlify.app">
+            <img
+              src="./img/portfolio/02.gif"
+              alt="🥧API Recipe Website (REMAKE)"
+              class="project-img"
+            />
+          </a>
+          <h3 class="project-title">
+            <a target="_blank" href="https://kitchen-genius-remake.netlify.app"
+              >🥧API Recipe Website (REMAKE)</a
+            >
+          </h3>
+        </div>
+        <div class="project" data-aos="flip-up">
+          <a href="https://kitchen-genius.netlify.app">
+            <img
+              src="./img/portfolio/05.gif"
+              alt="🥧API recipe website (OLD)"
+              class="project-img"
+            />
+          </a>
+          <h3 class="project-title last">
+            <a target="_blank" href="https://kitchen-genius.netlify.app"
+              >🥧API recipe website (OLD)</a
+            >
+          </h3>
+        </div>
+        <div class="project" data-aos="flip-up">
+          <a
+            target="_blank"
+            href="https://github.com/Bilda49/java_script_testing_project"
+          >
+            <img
+              src="./img/portfolio/01.gif"
+              alt="🎮OOP JS console game"
+              class="project-img"
+            />
+          </a>
+          <h3 class="project-title">
+            <a href="https://github.com/Bilda49/java_script_testing_project"
+              >🎮OOP JS console game</a
+            >
+          </h3>
+        </div>
+
+        <div class="project" data-aos="flip-up">
+          <a target="_blank" href="https://to-do-list-pavlo.netlify.app">
+            <img
+              src="./img/portfolio/03.gif"
+              alt="🗒️To-Do List"
+              class="project-img"
+            />
+          </a>
+          <h3 class="project-title last">
+            <a href="#!">🗒️To-Do List</a>
+          </h3>
+        </div>
+        <div class="project" data-aos="flip-up">
+          <a href="#!">
+            <img
+              src="./img/portfolio/04.gif"
+              alt="🎵Drumkit Project"
+              class="project-img"
+            />
+          </a>
+          <h3 class="project-title last">
+            <a href="#!">🎵Drumkit Project</a>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contacts" class="contacts">
+      <div class="container">
+        <div class="contacts-title">
+          <h2 class="title-1">Contacts</h2>
+        </div>
+        <div class="contacts-content" data-aos="fade-down">
+          <p>Want to know more?</p>
+        </div>
+        <div class="contacts-button" data-aos="fade-down">
+          <a href="mailto:pavlomatiushenko@gmail.com" class="btn"
+            >Send message</a
+          >
+          <a href="tel:+447877884302" class="btn">Call me</a>
+        </div>
+        <div class="contacts-social" data-aos="zoom-in">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/pavlo-matiushenko-630275244/"
+            ><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/wtfu_it/?igshid=MzRlODBiNWFlZA%3D%3D"
+            ><img src="./img/socials/Instargam.svg" alt="Instargam"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <button id="backToTopBtn" class="btn-back-to-top" onclick="scrollToTop()">
+      <img src="./img/icons/up-arrow.svg" alt="Up Arrow" />
+    </button>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
